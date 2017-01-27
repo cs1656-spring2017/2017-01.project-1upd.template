@@ -1,5 +1,5 @@
 # Repository: 2017-01.project-1upd.template
-# Assignment #1: Python 
+# Assignment #1: Python (UPDATED)
 
 > Course: **[CS 1656 - Introduction to Data Science](http://cs1656.org)** (CS 2056) -- Spring 2017    
 > Instructor: [Alexandros Labrinidis](http://labrinidis.cs.pitt.edu)  
