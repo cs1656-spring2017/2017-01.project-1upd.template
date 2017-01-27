@@ -78,7 +78,7 @@ PERCENT: 6.00%
 ### Important notes about grading
 It is absolutely imperative that your python program:  
 * runs without any syntax or other errors (using Python 3) -- we will run it using the following command:  
-`python3 team1 team2 year rain` OR `python3 team1 team2 year snow`  
+`python3 team1 team2 year snow`  
 * strictly adheres to the format specifications for input and output, as explained above.     
 
 Failure in any of the above will result in **severe** point loss. 
