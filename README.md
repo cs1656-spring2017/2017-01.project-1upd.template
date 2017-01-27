@@ -45,10 +45,10 @@ http://api.wunderground.com/api/INSERT_YOUR_KEY/history_20100101/q/KPIT.json
 https://www.wunderground.com/weather/api/d/docs?d=resources/code-samples  
 
 
-> **Obsolete version**
-> You should get the WeatherUnderground weather data using their historical data interface, e.g., 
-> `https://www.wunderground.com/history/airport/KPIT/2016/1/1/MonthlyHistory.html?format=1`
-> to get a CSV with the readings for all days in January 2016 from Pittsburgh's airport.
+~~**Obsolete version**
+You should get the WeatherUnderground weather data using their historical data interface, e.g., 
+`https://www.wunderground.com/history/airport/KPIT/2016/1/1/MonthlyHistory.html?format=1`
+to get a CSV with the readings for all days in January 2016 from Pittsburgh's airport.~~
 
 Please note that the type of precipitation should match even if it is part of the event as well, so `snow` should also match cases of `snow-rain`, `rain-snow`, `fog-rain-snow`, etc
 
@@ -72,6 +72,8 @@ PRECIP-2: 25.0
 WINNER: Pittsburgh Steelers 
 PERCENT: 6.00%
 ``` 
+
+**Notes** In case of no precipitation, you should put `infinity %` as the winning percentage. In case of a tie, you should say `NO WINNER`.
  
 ### Important notes about grading
 It is absolutely imperative that your python program:  
